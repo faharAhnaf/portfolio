@@ -1,24 +1,24 @@
 {
-  "portfolio" : [
+  "portfolio": [
     {
-      "img" : "assets/img/laptop.jpg",
-      "span" : "Portfolio"
+      "img": "assets/img/laptop.jpg",
+      "span": "Coming Soon"
     },
     {
-      "img" : "assets/img/laptop.jpg",
-      "span" : "Portfolio"
+      "img": "assets/img/laptop.jpg",
+      "span": "Coming Soon"
     },
     {
-      "img" : "assets/img/laptop.jpg",
-      "span" : "Portfolio"
+      "img": "assets/img/laptop.jpg",
+      "span": "Coming Soon"
     },
     {
-      "img" : "assets/img/laptop.jpg",
-      "span" : "Portfolio"
+      "img": "assets/img/laptop.jpg",
+      "span": "Coming Soon"
     }
   ],
 
-  "skills" : [
+  "skills": [
     {
       "img": "assets/img/html.png"
     },

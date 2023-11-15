@@ -16,7 +16,7 @@ sidebarUlLi.forEach((li) => {
 });
 
 // TEXT TYPING
-const jobName = ["Freelancer", "Web Developer", "Mahasiswa Gunadarma"];
+const jobName = ["Web Developer", "Student University of Gunadarma"];
 let count = 0;
 let nameIndex = 0;
 let txtContainer = "";
