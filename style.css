@@ -282,7 +282,7 @@ footer small {
     content: "";
     display: block;
     position: relative;
-    bottom: -1px;
+    bottom: -0.5px;
     width: 40px;
     height: 4px;
     background-color: #deb992;
