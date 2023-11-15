@@ -20,7 +20,7 @@ bars.addEventListener("touchstart", function () {
 
   setTimeout(() => {
     this.classList.remove("active");
-  }, 400);
+  }, 100);
 });
 
 faharEl.addEventListener("touchstart", function () {
@@ -28,7 +28,7 @@ faharEl.addEventListener("touchstart", function () {
 
   setTimeout(() => {
     this.classList.remove("active");
-  }, 400);
+  }, 100);
 });
 // End
 
