@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Quicksand:wght@500&display=swap");
 
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   color: #051622;
 }
 
@@ -26,11 +26,11 @@ header h1 {
 }
 
 header h1 a {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 header h1 a:hover {
-  color: #DEB992;
+  color: #deb992;
 }
 
 header ul {
@@ -43,11 +43,11 @@ header ul li {
 }
 
 header ul li a {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 header ul li a:hover {
-  color: #DEB992;
+  color: #deb992;
 }
 
 a {
@@ -60,7 +60,7 @@ a {
 }
 
 .container::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -68,15 +68,15 @@ a {
 .mobile-menu {
   float: right;
   display: none;
-  padding: 18px
+  padding: 18px;
 }
 
 .mobile-menu i {
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .mobile-menu i:hover {
-  color: #DEB992;
+  color: #deb992;
   cursor: pointer;
 }
 
@@ -91,19 +91,19 @@ a {
   left: -300px;
   width: 300px;
   background-color: #051622;
-  opacity: .9;
-  transition: .3s;
+  opacity: 0.9;
+  transition: 0.3s;
   z-index: 9999;
 }
 
 .sidebar ul li {
   padding: 24px;
-  transition: .3s;
+  transition: 0.3s;
   transition-property: background-color;
 }
 
 .sidebar ul li:hover {
-  background-color: #1BA098;
+  background-color: #1ba098;
 }
 
 .sidebar ul li a {
@@ -113,13 +113,12 @@ a {
 #banner {
   height: 48vh;
   padding: 150px 0;
-  background-color: #1BA098;
+  background-color: #1ba098;
 }
 
 section {
   padding: 50px 0;
 }
-
 
 #banner img {
   width: 130px;
@@ -148,7 +147,7 @@ section {
 
 .button-cv a {
   color: #fff;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .button-cv:hover {
@@ -159,7 +158,6 @@ section {
   color: #051622;
 }
 
-
 section h3 {
   padding-bottom: 20px;
   text-align: center;
@@ -167,7 +165,7 @@ section h3 {
 }
 
 section h3::before {
-  content: '';
+  content: "";
   display: block;
   position: relative;
   bottom: -28px;
@@ -178,14 +176,14 @@ section h3::before {
 }
 
 section h3::after {
-    content: '';
-    display: block;
-    position: relative;
-    bottom: -1.9px;
-    width: 40px;
-    height: 4px;
-    background-color: #DEB992;
-    left: calc(50% - 20px);
+  content: "";
+  display: block;
+  position: relative;
+  bottom: -1.9px;
+  width: 40px;
+  height: 4px;
+  background-color: #deb992;
+  left: calc(50% - 20px);
 }
 
 #about p {
@@ -234,8 +232,8 @@ section h3::after {
 }
 
 .col-4 a:hover img {
-  transform: scale(.9 , .9);
-  transition: .3s;
+  transform: scale(0.9, 0.9);
+  transition: 0.3s;
 }
 
 .col-3 {
@@ -256,7 +254,7 @@ section h3::after {
 .col-3 a p {
   font-weight: 1000;
   display: inline-block;
-  transition: .3s;
+  transition: 0.3s;
 }
 
 .col-3 a p:hover {
@@ -279,6 +277,16 @@ footer small {
   }
   header ul {
     display: none;
+  }
+  section h3::after {
+    content: "";
+    display: block;
+    position: relative;
+    bottom: -1px;
+    width: 40px;
+    height: 4px;
+    background-color: #deb992;
+    left: calc(50% - 20px);
   }
   .col-4 {
     width: 50%;
