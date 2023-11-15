@@ -1,19 +1,36 @@
 // OPEN AND CLOSE SIDEBAR
-const sidebarUlLi = document.querySelectorAll(".sidebar ul li a");
 const check = document.getElementById("check");
 const sidebar = document.querySelector(".sidebar");
+const bars = document.getElementById("bars");
+const faharEl = document.getElementById("fahar");
 
 check.addEventListener("click", () => {
   const checkStatus = check.checked;
-  sidebar.style.left = checkStatus ? "0" : '-300px';
+  sidebar.style.left = checkStatus ? "0" : "-300px";
 });
 
-sidebarUlLi.forEach((li) => {
-  li.addEventListener("click", () => {
-    sidebar.style.left = "-300px";
-    check.checked = false;
-  });
+sidebar.addEventListener("click", () => {
+  sidebar.style.left = "-300px";
+  check.checked = false;
 });
+
+// Fixing Click
+bars.addEventListener("touchstart", function () {
+  this.classList.add("active");
+
+  setTimeout(() => {
+    this.classList.remove("active");
+  }, 400);
+});
+
+faharEl.addEventListener("touchstart", function () {
+  this.classList.add("active");
+
+  setTimeout(() => {
+    this.classList.remove("active");
+  }, 400);
+});
+// End
 
 // TEXT TYPING
 const jobName = ["Web Developer", "Student University of Gunadarma"];
@@ -41,15 +58,15 @@ let words = "";
 })();
 
 // PORTFOLIO CARDS
-let cards = '';
+let cards = "";
 fetch("portfolio.json")
-  .then(response => response.json())
-  .then(response => {
-    response.portfolio.forEach(res => {
-      cards += portfolioEl(res)
+  .then((response) => response.json())
+  .then((response) => {
+    response.portfolio.forEach((res) => {
+      cards += portfolioEl(res);
       const portfolioContent = document.querySelector(".portfolio-content");
       portfolioContent.innerHTML = cards;
-    })
+    });
   });
 
 function portfolioEl(res) {
@@ -61,17 +78,17 @@ function portfolioEl(res) {
   </div>`;
 }
 
-let skill = '';
+let skill = "";
 // SKILL CARDS
 fetch("portfolio.json")
-  .then(response => response.json())
-  .then(response => {
-    response.skills.forEach(res => {
+  .then((response) => response.json())
+  .then((response) => {
+    response.skills.forEach((res) => {
       skill += skillsEl(res);
       const skillsContent = document.querySelector(".skills-content");
       skillsContent.innerHTML = skill;
-    })
-  })
+    });
+  });
 
 function skillsEl(res) {
   return `<div class="col-4">

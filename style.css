@@ -5,6 +5,7 @@
   margin: 0;
   font-family: "Quicksand", sans-serif;
   color: #051622;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 html {
@@ -27,6 +28,14 @@ header h1 {
 
 header h1 a {
   transition: 0.3s;
+}
+
+#fahar.active {
+  color: #deb992;
+}
+
+#fahar {
+  color: #051622;
 }
 
 header h1 a:hover {
@@ -52,6 +61,14 @@ header ul li a:hover {
 
 a {
   text-decoration: none;
+}
+
+#bars {
+  color: #051622;
+}
+
+#bars.active {
+  color: #deb992;
 }
 
 .container {
@@ -258,6 +275,10 @@ section h3::after {
 }
 
 .col-3 a p:hover {
+  color: red;
+}
+
+#link.active {
   color: red;
 }
 
