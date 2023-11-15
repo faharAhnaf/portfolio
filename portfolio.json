@@ -1,0 +1,35 @@
+{
+  "portfolio" : [
+    {
+      "img" : "assets/img/laptop.jpg",
+      "span" : "Portfolio"
+    },
+    {
+      "img" : "assets/img/laptop.jpg",
+      "span" : "Portfolio"
+    },
+    {
+      "img" : "assets/img/laptop.jpg",
+      "span" : "Portfolio"
+    },
+    {
+      "img" : "assets/img/laptop.jpg",
+      "span" : "Portfolio"
+    }
+  ],
+
+  "skills" : [
+    {
+      "img": "assets/img/html.png"
+    },
+    {
+      "img": "assets/img/css.png"
+    },
+    {
+      "img": "assets/img/javascript.png"
+    },
+    {
+      "img": "assets/img/php.png"
+    }
+  ]
+}
